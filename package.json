@@ -1,0 +1,21 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "Solar System Infographic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "infographic",
+    "solar",
+    "system",
+    "planets"
+  ],
+  "author": "Soraya Pittis",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
