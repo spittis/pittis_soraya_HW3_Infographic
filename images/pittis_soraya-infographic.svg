@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Solar System Infographic</title>
-    <link rel="stylesheet" href="css/main.css">
-
-    <!--Tweenmax greensock plugin-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> 
-
-    <!--Waypoint-->
-    <script src="js/noframework.waypoints.min.js"></script>
-    <script src="js/mywaypoint.js"></script>
-
-</head>
-<body>
-
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 147.2 1102.1" style="enable-background:new 0 0 147.2 1102.1;" xml:space="preserve">
@@ -12545,7 +12527,7 @@ jl8g5GlUszRYOiHgP4LP18PHzvGXAAMAZo76g0QWuAoAAAAASUVORK5CYII=" transform="matrix(
 		<text transform="matrix(1 0 0 1 71.1064 475.3671)" class="st11 st12 st14">(kms)</text>
 		<text transform="matrix(1 0 0 1 65.7135 471.1441)" class="st11 st9 st47">4,879</text>
 	</g>
-	<g id="mercury" class="hidden">
+	<g id="mercury">
 		
 			<image style="overflow:visible;" width="24" height="24" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABHRJREFUeNqkVU1vI0UQrRnPePz9
@@ -12952,7 +12934,7 @@ yjISmw1RnvPy1mEaTKJxEPd8VVV4QV0sjbG5Ugw16p9wqGKN8j5qNLK2NepRo0op8wnvNwAuwYIi
 		<path id="hair2" class="st100" d="M73.3,284.1c0,0,0.5-0.6,1.1,0"/>
 		<path id="hair1" class="st99" d="M80.3,280.4c0,0-0.5,2.4-0.6,2.4c0,0,0.4-0.1,0.6-0.6c0,0-0.3,1.3-0.6,1.3c0,0,0.5-0.2,0.7-0.9
 			c0,0-0.1,1-0.3,1l0.4-0.5C80.5,283,80.6,280.4,80.3,280.4z"/>
-		<g id="visor_2_" class="visible">
+		<g id="visor_2_">
 			<path id="visor" class="st101" d="M67.3,279.9c0,0,1.7-1.3,3.1-1.4c0,0,4.6-0.5,5.4-0.5s2.2-0.2,3.3,0.7c1,1,1.3,1.4,1.3,1.4
 				s0.4,1.6,0.3,1.9s0.1,1.5-0.3,1.8c-0.4,0.3-1.5,2.2-1.7,2.3s-2,1.5-2.5,1.6c-0.5,0.1-3.9,0.1-4.7,0c-0.8-0.1-2.4-0.7-2.7-1
 				c-0.2-0.1-0.6-0.7-0.9-1.2c-0.2-0.3-0.4-0.7-0.6-0.9c-0.1-0.1-0.1-0.2-0.2-0.3c-0.3-0.5-0.7-2.5-0.3-3
@@ -14265,7 +14247,7 @@ gg==" transform="matrix(1 0 0 1 103 19)">
 		<text transform="matrix(1 0 0 1 118.6019 35.3958)" class="st105 st133 st134 st135"> </text>
 		<g>
 			
-				<image class="delay animated fadeIn" style="overflow:visible;opacity:0.52;" width="129" height="49" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAAAxCAYAAAD9asolAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.52;" width="129" height="49" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAAAxCAYAAAD9asolAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAErNJREFUeNrsXMlyG0cS7Q1o7Fy0
 0JrRwQeffPUP6NP8af4A++KDLvZBMeMYWTPigh29z3vFl3CpBVAkJceQHnRERRO9VFVmvlyrmkFw
 OA7H4Tgch+NwHI7DcTgOx2M4mqYJD1z4c/kVPnBC/Pk17kIYNp/DlLu+/8gEfy9+RQ+NGBHEecWv
@@ -14353,12 +14335,12 @@ EFxxr2Twx6dx9WOi9QCC27mBAunZGnn6FJlGg5x8ZfsduAbAFcx+v7/cV5F78IA/yPmTUfr2s6/g
 hHbNoV0FfJQW4ACCL1PAuXeh5nD8NUBxOA7H4Tgcf4HjvwIMAIjbk0LJ6XhFAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 11 25)">
 			</image>
 			<g>
-				<text transform="matrix(1 0 0 1 19.1442 54.5913)" class="st105 st146 st147 delay animated fadeIn">and beyond</text>
+				<text transform="matrix(1 0 0 1 19.1442 54.5913)" class="st105 st146 st147">and beyond</text>
 			</g>
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" width="22" class="ttt" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="22" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAi5JREFUeNrsVLFu4zAMlURJaRwH
 GYsDbvCQqWt+oD/Rr8xP9AcyXqcMHoIAHY3Eri2J0pFB03Pv4sQdDygBgSD5/ExRJIX430QOBVIa
 jkkp0i1idYnwnfR01muh1oRjffb1MOMy7hNuNiu1WFRK6/CBCUGnqlrE1WoTGc5nKHt5gVRtt0to
@@ -14377,7 +14359,7 @@ ewzp2EXfx6Sxi17eAvQX+hjCb/mWYfktwADZdX3lC3w/0AAAAABJRU5ErkJggg==" transform="mat
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" width="25" height="27" class="iii" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAbCAYAAACJISRoAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="25" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAbCAYAAACJISRoAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjFJREFUeNrsVTtyE0EQ7fnvp2SR
 CCcOVAQEdqgDoEtwHuTz6BL2ARzigIBS4MQoQZZX2t35MW9tEyALI4EpqsxUbXV193vzdqZ7Zohe
 6mD7kPhTgBiJ4ZtMiMfJvb2P/fafReTiHebsjHjv04jRKHkXRMu3F3E8ptDBWDdJ3Fmk+8vTNHla
@@ -14395,9 +14377,9 @@ p3lATbv2vkk1qBVndSpp63ywsJ2f4sgDBzx4O534Zz2MDwPXBIiYoE9mrY2oRK1u04WyhIWP+HeB
 			</g>
 		</g>
 		<text transform="matrix(1 0 0 1 49.6554 35.3872)" class="st105 st133 st134 st135"> </text>
-		<g class="st131 iii">
+		<g class="st131">
 			
-				<image  class="iii0" style="overflow:visible;opacity:0.58;" width="18" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="18" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAa1JREFUeNrsVM1Kw0AQnplN2sRa
 UShaj0JPgqc+gL6Ez6N9Hl9CH6AnwZPg0R+EirUmTbI77hdFUmxaRS+KC2X4vm/yMbOdWaI/e7hO
 0IrGJfyikeobN6hoR69GzPWGwQcTb3BKJAfbMOp7dkinA9IDIqdab8YzrRz73z4JnfcM7Tyb25Hl
@@ -14414,7 +14396,7 @@ mfhLbvm2Mk7zzmQ9o+5l4Sty89ZEZiwvfIJfBXy0tlVWkyCWJlgR6PyJ7a9d2uvXpcUrsHRpv/uM
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" width="24" height="27" class="nnn" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAYAAABm409WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="24" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAYAAABm409WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAuhJREFUeNrsVUtuG0cQrU/PDEcm
 GTmRIMDIQjCCLKKlL6BL+D68jy6hC2QpLQJDEAxvDAmwxc98uruqUiMJNgWTpoN4qQKG0+xPveqq
 92oAnm2H4aZJ2zK/4bD9VwB8ODHz+Qt/btbWD+3scfQWTh4dz2wXEH4b+VsCeElw/A9DnNBH6fGo
@@ -14437,7 +14419,7 @@ rkJggg==" transform="matrix(1 0 0 1 54 19)">
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.52;" class="iii" width="20" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.52;" width="20" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAbCAYAAAB836/YAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAo9JREFUeNrsVM1OG0EMtj2zfyQh
 SqtItGolhCoO5FKJF8hLcO+bEF6nvER4g0oIDhwQVQ8URSWFJCS7M2PXS4AGkgJVLz0wq5XXntlP
 n+35DPC/L3zWvtw7KX8PKNN4Z0ft9k1sZ2o627e7i4FxztdjHbXdbpvWawPsH09w+D3H6koijX4q
@@ -14458,7 +14440,7 @@ L+tl3Vu/BBgACodRLXcRSfEAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 65 19)">
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" class="iii" width="18" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="18" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAW1JREFUeNrsVEFqwzAQ3NXKst2E
 ngKFnvuD/h/ygfygx5JSyKUhaWxJq63WISQ4cZqW9NBSgRnPjhmP1msB/NmFZ1WRvY4oXzfaGxzq
 cs7QDJggTKcEM6B8v0XlWj9MOZhoZ6IveAK6HwGxAaQEMl8Dw0O+AFKXrpfMnDTPJhNeuBUvK3p7
@@ -14474,7 +14456,7 @@ DwEGAL/q1L2tLgjGAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 73 19)">
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.54;" width="24" class="iii" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAYAAABm409WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.54;" width="24" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAbCAYAAABm409WAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAx9JREFUeNrsVUtuG0cQraru+ZFD
 WkokUN4EhpEVdQjzErxCrmHpPLyEvDWQpbjwwjC8cQQp+pAznE93V6WGkgBblCgD8VIFDOZX/V71
 q08DvNgzhk//EpSfWrzd7TECXSFwfAQ4PgXcP7/1+aDXeF9/wGztND2cyrHe3x9pJFuINggUHGdT
@@ -14498,7 +14480,7 @@ YII=" transform="matrix(1 0 0 1 78 19)">
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" width="18" height="27" class="iii" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="18" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAaxJREFUeNrsVD1Pw0AMtX13aUOh
 SLQSEjMTjMxI/RX8HeDv8BsYKjF3hIkRlaUFUVpSch/mfAtVGxoBYgBhKXrxe86Lc/EdwJ8NXCcy
 ML4XIn/aKBnIY+cL+mlk8GNDrDQ5A+xDn7aGPTyK3CBez3t97kEvRI2rzLDKJN7S7RhUqwOKpoBh
@@ -14515,7 +14497,7 @@ Pdj+4zfGmwADAGJ99dCjtgGpAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 89 19)">
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;" width="22" height="27" class="iii" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;" width="22" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjpJREFUeNrsVc2O2jAQ9tiOScLf
 qlJVVeKAKk698gK8xD4lL8EL7LE9RRWH1V5bmgKJ7RnXk6DtdoEAvVVaS9ZoZr58jOcPIf63A93u
 0OGH0PWlPE/YkB7uUrbYRh5sz5hrI24J7+P9Nn+Qm81Yeq+fcVr7MB5v6NPDnJYRLJp7HD2cIl3E
@@ -14530,12 +14512,12 @@ j08umXywLFk/t3j+ZdHD311zedHDdX80LxdMN+HbeTvnz28BBgBpb16zQzshuAAAAABJRU5ErkJg
 gg==" transform="matrix(1 0 0 1 94 19)">
 			</image>
 			<g>
-				<text transform="matrix(1 0 0 1 100.9591 35.3872)" class="st144 st133 st134 st135 iii">T</text>
+				<text transform="matrix(1 0 0 1 100.9591 35.3872)" class="st144 st133 st134 st135">T</text>
 			</g>
 		</g>
 		<g class="st131">
 			
-				<image style="overflow:visible;opacity:0.58;" class="yyy" width="22" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+				<image style="overflow:visible;opacity:0.58;" width="22" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAbCAYAAAB4Kn/lAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
 GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjpJREFUeNrsVEtu2zAQHZISpcZN
 0iBuixZdZJGVu8wFcokcyEfpOoewD9BVgXqVZdGizacIHNsSKc50XpEE+dB2DmAK9Hhm3jw9UkMS
 bcbtMLmgkJiXExjJxYsc6VDxA51vaawvONaHaEx0b/F7TscyUbjis+Qmo9RosX33mezWjOxl+GWf
@@ -14555,7 +14537,7 @@ gg==" transform="matrix(1 0 0 1 103 19)">
 		</g>
 		<text transform="matrix(1 0 0 1 118.5841 35.3872)" class="st105 st133 st134 st135"> </text>
 	</g>
-	<g id="plain-title" class="light">
+	<g id="plain-title">
 		<g id="title_1_">
 			<text transform="matrix(1 0 0 1 19.2598 54.4413)" class="st105 st146 st147">and beyond</text>
 			<text transform="matrix(1 0 0 1 29.4517 35.2372)" class="st132 st133 st134 st140">T</text>
@@ -14643,24 +14625,3 @@ gg==" transform="matrix(1 0 0 1 103 19)">
 	</g>
 </g>
 </svg>
-
-<!-- TRY TO FIX ON WEDNESDAY
-
-      <div id="astronaut">
-          <img src="images/astronaut.svg" class="data-ref" id="F55" data="0">
-      </div>
- 
-
-
-        <div class="small-6 columns modelInfo">
-            <h4 class="modelName">Model Name Here</h4>
-            <p class="priceInfo">Pricing here</p>
-            <p class="modelDetails">Model details here</p>
-        </div>
-
-        -->
-
-        <script src="js/master.js"></script>
-    
-    </body>
-    </html>
