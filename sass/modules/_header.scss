@@ -1,0 +1,61 @@
+.ttt
+{
+    -webkit-animation: flicker 4s infinite;
+}
+
+
+@-webkit-keyframes flicker
+{
+0% {opacity:0;}
+9% {opacity:0;}
+10% {opacity:.5;}
+13% {opacity:0;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+.iii, .iii0
+{
+    -webkit-animation: flickered 4s;
+}
+
+@-webkit-keyframes flickered
+{
+    0% {opacity:0;}
+    20% {opacity:0;}
+    25% {opacity:1;}
+}
+
+.nnn
+{
+    -webkit-animation: flickern 4s infinite;
+}
+
+@-webkit-keyframes flickern
+{
+0% {opacity:0;}
+9% {opacity:.4;}
+10% {opacity:0;}
+13% {opacity:1;}
+20% {opacity:.5;}
+25% {opacity:1;}
+}
+
+.yyy
+{
+    -webkit-animation: flickery 4s infinite;
+}
+
+@-webkit-keyframes flickery
+{
+0% {opacity:0;}
+5% {opacity:1;}
+15% {opacity:0;}
+18% {opacity:1;}
+25% {opacity:1;}
+}
+
+.light
+{
+    opacity: .7;
+}
