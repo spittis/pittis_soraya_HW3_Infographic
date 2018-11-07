@@ -7,7 +7,7 @@ $db = "db_suit";
 $conn = mysqli_connect($host, $user, $password, $db);
 
 if (!$conn) { 
-    echo "something is broken... connection isn't working";
+    echo "connection isn't working";
     exit; 
 }
 
