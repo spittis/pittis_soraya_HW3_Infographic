@@ -3117,6 +3117,10 @@
   opacity: 0.7;
 }
 
+#astronaut {
+  cursor: pointer;
+}
+
 body {
   background-color: #22292d;
 }

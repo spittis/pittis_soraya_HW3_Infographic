@@ -12,6 +12,7 @@ Users can begin by downloading a zip file of this project and opening the index.
 
 * [Animate.css](https://daneden.github.io/animate.css/) - The library of CSS animations
 * [waypoint.js](http://imakewebthings.com/waypoints/) - The tool implemented to allow for CSS animation on scroll
+* [countUp.js]
 
 
 ## Authors
