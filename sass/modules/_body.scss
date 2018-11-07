@@ -3,5 +3,58 @@ body
     background-color: $background-color;
 }
 
+#svg
+{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.constStars {
+    -webkit-animation: spin1 5.5s infinite linear;
+    -moz-animation: spin1 5.5s infinite linear;
+    -o-animation: spin1 5.5s infinite linear;
+    -ms-animation: spin1 5.5s infinite linear;
+    animation: spin1 5.5s infinite linear;
+    transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes spin1 {
+    50% { -webkit-transform: rotate(0.4deg);}
+    
+    50% { -webkit-transform: rotate(-0.4deg);}
+
+}
+    @-moz-keyframes spin1 {
+    50% { -moz-transform: rotate(0.4deg);}
+    50% { -webkit-transform: rotate(-0.4deg);}
+    }
+
+    @keyframes spin1 {
+    50% { transform: rotate(0.4deg);}
+    50% { -webkit-transform: rotate(-0.4deg);}
+    } 
 
 
+
+
+    .constStars line {
+        -webkit-animation: spin2 2s infinite linear;
+        -moz-animation: spin2 2s infinite linear;
+        -o-animation: spin2 2s infinite linear;
+        -ms-animation: spin2 2s infinite linear;
+        animation: spin2 2s infinite linear;
+        transform-origin: 50% 50%;
+    }
+
+    @-webkit-keyframes spin2 {
+        100% { -webkit-transform: rotate(360deg);}
+    
+    }
+        @-moz-keyframes spin2 {
+        100% { -moz-transform: rotate(360deg);}
+        }
+    
+        @keyframes spin2 {
+        100% { transform: rotate(360deg);}
+        } 

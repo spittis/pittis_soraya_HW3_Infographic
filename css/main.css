@@ -3117,14 +3117,153 @@
   opacity: 0.7;
 }
 
-#astronaut {
-  cursor: pointer;
-}
-
 body {
   background-color: #22292d;
 }
 
+#svg {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.constStars {
+  -webkit-animation: spin1 5.5s infinite linear;
+  -moz-animation: spin1 5.5s infinite linear;
+  -o-animation: spin1 5.5s infinite linear;
+  -ms-animation: spin1 5.5s infinite linear;
+  animation: spin1 5.5s infinite linear;
+  transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes spin1 {
+  50% {
+    -webkit-transform: rotate(0.4deg);
+  }
+  50% {
+    -webkit-transform: rotate(-0.4deg);
+  }
+}
+@-moz-keyframes spin1 {
+  50% {
+    -moz-transform: rotate(0.4deg);
+  }
+  50% {
+    -webkit-transform: rotate(-0.4deg);
+  }
+}
+@keyframes spin1 {
+  50% {
+    transform: rotate(0.4deg);
+  }
+  50% {
+    -webkit-transform: rotate(-0.4deg);
+  }
+}
+.constStars line {
+  -webkit-animation: spin2 2s infinite linear;
+  -moz-animation: spin2 2s infinite linear;
+  -o-animation: spin2 2s infinite linear;
+  -ms-animation: spin2 2s infinite linear;
+  animation: spin2 2s infinite linear;
+  transform-origin: 50% 50%;
+}
+
+@-webkit-keyframes spin2 {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes spin2 {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@keyframes spin2 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#astro-title {
+  color: #ffffff;
+  font-family: "Ayuthaya";
+  font-size: 20px;
+}
+
+#astro-text {
+  color: #ffffff;
+  font-family: "Ayuthaya";
+  font-size: 15px;
+  margin: 1%;
+  margin-bottom: 5%;
+}
+
+.astro-box {
+  opacity: 0.85;
+  background-color: #808080;
+  border-color: #FFFFFF;
+  border-width: 0.75%;
+  border-style: solid;
+  stroke-miterlimit: 1%;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  margin-top: 250%;
+}
+
+.float {
+  animation: shake 25s cubic-bezier(0.36, 0.2, 0.19, 0.15) both infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+  10%, 50%, 100% {
+    transform: translate3d(2px, 0, 0);
+  }
+  25%, 80% {
+    transform: translate3d(-2px, 0, 0);
+  }
+}
+#life-support:hover, #right-glove:hover, #ivcl-boot:hover, #ivcl-boot2:hover, #hard-upper-torso:hover, #drink-bag:hover, #helmet:hover {
+  fill: #808080 !important;
+  cursor: pointer;
+}
+
+.wave {
+  -webkit-animation: waving 1s infinite linear;
+  -moz-animation: waving 1s infinite linear;
+  -o-animation: waving 1s infinite linear;
+  -ms-animation: waving 1s infinite linear;
+  animation: waving 1s infinite linear;
+  transform-origin: 45% 27%;
+}
+
+@-webkit-keyframes waving {
+  50% {
+    -webkit-transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+  }
+}
+@-moz-keyframes waving {
+  50% {
+    -moz-transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+  }
+}
+@keyframes waving {
+  50% {
+    transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(-3deg);
+  }
+}
 .hidden {
   visibility: hidden;
 }

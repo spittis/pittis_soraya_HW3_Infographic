@@ -1,0 +1,88 @@
+#astro-title
+{
+    color: #ffffff;
+    font-family:'Ayuthaya';
+    font-size:20px;
+}
+
+#astro-text
+{
+    color: #ffffff;
+    font-family:'Ayuthaya';
+    font-size:15px;
+    margin: 1%;
+    margin-bottom: 5%;
+}
+
+.astro-box{
+    opacity:0.85;
+    background-color:#808080;
+    border-color: #FFFFFF;
+    border-width: 0.75%;
+    border-style: solid;
+    stroke-miterlimit: 1%;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    margin-top: 250%;
+}
+
+.float
+{
+    animation: shake 25s cubic-bezier(.36,.20,.19,.15) both infinite;
+    transform: translate3d(0, 0, 0);
+  }
+
+
+@keyframes shake {
+    10%, 50%, 100% {
+      transform: translate3d(2px, 0, 0);
+    }
+    
+    25%, 80% {
+      transform: translate3d(-2px, 0, 0);
+    }
+
+
+  }
+
+
+  #life-support:hover, #right-glove:hover, #ivcl-boot:hover, #ivcl-boot2:hover, #hard-upper-torso:hover, #drink-bag:hover, #helmet:hover
+  {
+      fill:#808080 !important;
+      cursor: pointer;
+  }
+
+
+
+
+  .wave
+{
+    -webkit-animation: waving 1s infinite linear;
+    -moz-animation: waving 1s infinite linear;
+    -o-animation: waving 1s infinite linear;
+    -ms-animation: waving 1s infinite linear;
+    animation: waving 1s infinite linear;
+    transform-origin: 45% 27%;
+  }
+
+
+  @-webkit-keyframes waving {
+    50% { -webkit-transform: rotate(3deg);}
+    
+    50% { -webkit-transform: rotate(-3deg);}
+
+}
+    @-moz-keyframes waving {
+    50% { -moz-transform: rotate(3deg);}
+    50% { -webkit-transform: rotate(-3deg);}
+    }
+
+    @keyframes waving {
+    50% { transform: rotate(3deg);}
+    50% { -webkit-transform: rotate(-3deg);}
+    } 
+
+  
