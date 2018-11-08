@@ -38,23 +38,68 @@ body
 
 
 
-    .constStars line {
-        -webkit-animation: spin2 2s infinite linear;
-        -moz-animation: spin2 2s infinite linear;
-        -o-animation: spin2 2s infinite linear;
-        -ms-animation: spin2 2s infinite linear;
-        animation: spin2 2s infinite linear;
-        transform-origin: 50% 50%;
-    }
+    
 
-    @-webkit-keyframes spin2 {
-        100% { -webkit-transform: rotate(360deg);}
-    
-    }
-        @-moz-keyframes spin2 {
-        100% { -moz-transform: rotate(360deg);}
-        }
-    
-        @keyframes spin2 {
-        100% { transform: rotate(360deg);}
-        } 
+    .constStars path {
+            animation: shooting linear 20s !important;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
+            -webkit-animation: shooting linear 20s !important;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-transform-origin: 50% 50%;
+            -moz-animation: shooting linear 20s !important;
+            -moz-animation-iteration-count: infinite;
+            -moz-transform-origin: 50% 50%;
+            -o-animation: shooting linear 20s !important;
+            -o-animation-iteration-count: infinite;
+            -o-transform-origin: 50% 50%;
+            -ms-animation: shooting linear 20s !important;
+            -ms-animation-iteration-count: infinite;
+            -ms-transform-origin: 50% 50%;
+          }
+          
+          @keyframes shooting{
+            0% {
+              transform:  translate(0px,0px)  ;
+            }
+            100% {
+              transform:  translate(-22px,150px)  ;
+            }
+          }
+          
+          @-moz-keyframes shooting{
+            0% {
+              -moz-transform:  translate(0px,0px)  ;
+            }
+            100% {
+              -moz-transform:  translate(-22px,150px)  ;
+            }
+          }
+          
+          @-webkit-keyframes shooting {
+            0% {
+              -webkit-transform:  translate(0px,0px)  ;
+            }
+            100% {
+              -webkit-transform:  translate(-22px,150px)  ;
+            }
+          }
+          
+          @-o-keyframes shooting {
+            0% {
+              -o-transform:  translate(0px,0px)  ;
+            }
+            100% {
+              -o-transform:  translate(-22px,150px)  ;
+            }
+          }
+          
+          @-ms-keyframes shooting {
+            0% {
+              -ms-transform:  translate(0px,0px)  ;
+            }
+            100% {
+              -ms-transform:  translate(-22px,150px)  ;
+            }
+          }
+

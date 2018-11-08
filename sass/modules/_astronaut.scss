@@ -16,7 +16,7 @@
 
 .astro-box{
     opacity:0.85;
-    background-color:#808080;
+    background-color: $gray;
     border-color: #FFFFFF;
     border-width: 0.75%;
     border-style: solid;
@@ -26,7 +26,7 @@
     margin: 0 auto;
     z-index: 2;
     position: relative;
-    margin-top: 250%;
+    margin-top: 240%;
 }
 
 .float
@@ -37,7 +37,7 @@
 
 
 @keyframes shake {
-    10%, 50%, 100% {
+    0%, 50%, 100% {
       transform: translate3d(2px, 0, 0);
     }
     
@@ -85,4 +85,55 @@
     50% { -webkit-transform: rotate(-3deg);}
     } 
 
+    #totop
+    {
+    color: #ffffff;
+    font-family:'Ayuthaya';
+    font-size:25px;
+    cursor: pointer;
+    z-index: 3;
+    display: block;
+    margin-top:480%;
+    text-align: center;
+    position: relative;
+    }
   
+    @media (max-width: 680px) {
+
+        #astro-title
+{
+    color: #ffffff;
+    font-family:'Ayuthaya';
+    font-size:12px;
+}
+
+#astro-text
+{
+    color: #ffffff;
+    font-family:'Ayuthaya';
+    font-size:9px;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+.astro-box{
+    opacity:0.85;
+    background-color:#808080;
+    border-color: #FFFFFF;
+    border-width: 0.75%;
+    border-style: solid;
+    stroke-miterlimit: 1%;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    margin-top: 240%;
+}
+
+    }
+
+    .none
+    {
+        display:none;
+    }
